@@ -24,7 +24,7 @@ FastAPI voice assistant using Azure OpenAI for text generation, speech-to-text, 
 
 ## Tech Stack
 
-Python Â· FastAPI Â· Azure OpenAI Â· LangChain Â· FAISS
+Python · FastAPI · Azure OpenAI · LangChain · FAISS
 
 ## Getting Started
 
