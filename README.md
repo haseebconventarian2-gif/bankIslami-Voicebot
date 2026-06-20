@@ -15,6 +15,14 @@ FastAPI voice assistant using Azure OpenAI for text generation, speech-to-text, 
 
 FastAPI voice assistant using Azure OpenAI for text generation, speech-to-text, text-to-speech, and WhatsApp integration.
 
+## 📖 The Story
+
+This project started with a practical question: how can a banking assistant feel less like a form and more like a conversation? The first step was a text endpoint; the next was allowing a customer to speak naturally and receive an audio reply.
+
+Azure OpenAI provides chat, transcription, and speech synthesis, while the RAG layer uses Azure embeddings and FAISS to keep responses connected to banking content. FastAPI provides the main Python API, and the repository also contains Node.js building blocks for messaging integration.
+
+The result is a bridge between a browser/API prototype and a channel-ready voice assistant. Future work can consolidate the Python and Node paths, add automated conversation tests, and introduce production-grade authentication and monitoring.
+
 ## Highlights
 
 - Text conversation endpoint
@@ -24,7 +32,7 @@ FastAPI voice assistant using Azure OpenAI for text generation, speech-to-text, 
 
 ## Tech Stack
 
-Python · FastAPI · Azure OpenAI · LangChain · FAISS
+Python Â· FastAPI Â· Azure OpenAI Â· LangChain Â· FAISS
 
 ## Getting Started
 
@@ -93,4 +101,5 @@ This is a learning and reference implementation. Review security, validation, mo
 - Define retention and privacy controls for audio and customer data.
 
 > This README reflects the current codebase. External AI, telephony, and messaging features require their respective accounts, assets, and approvals.
+
 
